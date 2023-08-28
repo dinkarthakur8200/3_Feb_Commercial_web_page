@@ -1,0 +1,139 @@
+/* aplying the css... to the index.html */
+*
+{
+    margin: 0%;
+    padding: auto;
+    border-radius: 0%;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+/* applying the css  to body element */
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+body{
+    box-shadow: 2pt;
+    background-image: url(bgcimage.png);
+    margin: auto;
+    padding: 0%;
+}
+
+
+/* Apllying css to header */
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+/* applying the css to header logo of page... */
+
+header nav img{
+    margin: 100px 125px;
+    height: 60px;
+    width: 96px;
+}
+
+/* apllying the css to nav ul li a ... */
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding: 6px 70px;
+    font-style: normal;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(219, 121, 50);
+}
+
+/* desinging the order button... */
+
+button
+{
+    background: #a8201c;
+    border: none;
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 10px 18px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 19px;
+}
+/* 
+.order-button:hover{
+    background-color: rgb(80, 16, 16);
+    color: cadetblue;
+} */
+
+.first-button{
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 100px 260px;
+}
+
+
+/* designing the main section of document.. */
+
+.section
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: rgb(248, 143, 5);
+    padding: 0px 12px;
+}
+.info h1
+{
+    margin-left: 100px;
+}
+
+/* desinging the main section button */
+
+main div:last-child
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: first baseline;
+}
+
+/* desinging the footer section .... */
+
+.footer
+ {
+    display:flex;
+    flex-direction: column;
+ }
+
+ .footer img{
+    height: 110px;
+    width: 155px;
+    margin-left: 1440px;
+ }
